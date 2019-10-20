@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Breathingdifficulties">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/Title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="20dp"
+            android:text="BREATHING DIFFICULTIES"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/Step1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="1. Assess the situation. "
+            android:textAlignment="viewStart"
+            android:textSize="14dp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/Image1"
+            android:layout_width="match_parent"
+            android:layout_height="310dp"
+            app:srcCompat="@drawable/breathing1" />
+
+        <TextView
+            android:id="@+id/Instruction1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="Make sure the person is choking and determine whether it is a partial or total airway obstruction. If a person is experiencing mild choking, or partial airway obstruction, you are better off letting him cough to remove the obstruction himself.
+Signs of partial airway obstruction include the ability to speak, cry out, cough or respond to you. The person will also usually be able to breathe, though it may be slightly labored and the person may grow pale in the face.
+In contrast, someone experiencing a total obstruction of the airway will not be able to speak, cry, cough or breathe. In addition, you may notice the person making the choking sign (both hands clutched to the throat) and his lips and fingernails may turn blue due to lack of oxygen." />
+
+        <TextView
+            android:id="@+id/Step2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="2. Ask the person, Are you choking?. "
+            android:textAlignment="viewStart"
+            android:textSize="14dp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/Image2"
+            android:layout_width="match_parent"
+            android:layout_height="310dp"
+            app:srcCompat="@drawable/breathing2" />
+
+        <TextView
+            android:id="@+id/Instruction2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="If the person can respond to you verbally, wait. Someone who is really choking will not be able to speak at all, but they may shake their head yes or no. It is important that you do not use back blows on a person who has partial airway obstruction because there is the risk of lodging the previously semi-loose object more deeply and potentially causing a total obstruction. If the person responds:
+Reassure the person. Let him know that you are there and ready to help if need be.
+Encourage the person to cough to try to clear the blockage. Do not use back blows.
+Keep monitoring the situation and be prepared to help in the case that the person's airway becomes fully blocked or the choking becomes severe." />
+
+        <TextView
+            android:id="@+id/Step3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="3. Administer first-aid. "
+            android:textAlignment="viewStart"
+            android:textSize="14dp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/Image3"
+            android:layout_width="match_parent"
+            android:layout_height="310dp"
+            app:srcCompat="@drawable/breathing3" />
+
+        <TextView
+            android:id="@+id/Instruction3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="If the person is choking severely or suffering from a total airway obstruction and is conscious, communicate your intent to perform first aid. It's a good idea to make sure that someone who is conscious know what you plan to do; this will also give him an opportunity let you know if your assistance is welcomed.
+If you are the only person present who can help the person, perform the first aid described below before calling emergency services. If someone else is available, get him to call for assistance." />
+
+        <TextView
+            android:id="@+id/Step4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="4. Give back blows.. "
+            android:textAlignment="viewStart"
+            android:textSize="14dp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/Image4"
+            android:layout_width="match_parent"
+            android:layout_height="310dp"
+            app:srcCompat="@drawable/breathing4" />
+
+        <TextView
+            android:id="@+id/Instruction4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="Note that the following instructions apply to a person sitting or standing.
+Stand behind the person and slightly off to one side. If you’re right-handed, stand to the left and if you’re left-handed, stand to the right.
+Support the person's chest with one hand and lean the person forward so that the object blocking his airway will exit his mouth (as opposed to going further down the throat).
+Administer up to 5 forceful blows between the person’s shoulder blades with the heel of your hand (between your palm and wrist). Pause after each blow to see if the blockage has cleared. If not, give up to five abdominal thrusts (see below)." />
+
+        <TextView
+            android:id="@+id/Step5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="5. Administer abdominal thrusts (Heimlich maneuver). "
+            android:textAlignment="viewStart"
+            android:textSize="14dp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/Image5"
+            android:layout_width="match_parent"
+            android:layout_height="310dp"
+            app:srcCompat="@drawable/breathing5" />
+
+        <TextView
+            android:id="@+id/Instruction5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="The Heimlich maneuver is an emergency technique that is only to be used on adults or children older than 1 year of age. Do not use the Heimlich maneuver on children under 1 year old.
+Stand behind the choking victim.
+Put your arms around his waist and lean him forward.
+Make a fist with your hand and place it directly above the person's navel (belly button) but below the breastbone.
+Put your other hand on top of your first, then thrust both hands backwards into their stomach with a hard, upward movement.
+Do this thrusting action up to five times. Check after each thrust to see if the blockage is gone. Stop if the victim loses consciousness." />
+
+    </LinearLayout>
+
+</ScrollView>

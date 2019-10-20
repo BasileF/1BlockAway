@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primaryColor"
+    tools:context=".Chestpain">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/Title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="20dp"
+            android:text="CHEST PAIN"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/Step1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="1. Determine responsiveness. "
+            android:textAlignment="viewStart"
+            android:textSize="14dp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/Image1"
+            android:layout_width="match_parent"
+            android:layout_height="310dp"
+            app:srcCompat="@drawable/heart1" />
+
+        <TextView
+            android:id="@+id/Instruction1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text= "If a person is unconscious, try to rouse them by speaking to them or by tapping at the shoulder. do not be afraid to speak loudly or even shout. If they do not respond to activity, sound, touch, or other stimulation, determine whether they are breathing." />
+
+        <TextView
+            android:id="@+id/Step2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="2. Check for breathing and a pulse. "
+            android:textAlignment="viewStart"
+            android:textSize="14dp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/Image2"
+            android:layout_width="match_parent"
+            android:layout_height="310dp"
+            app:srcCompat="@drawable/heart2" />
+
+        <TextView
+            android:id="@+id/Instruction2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="If unconscious and unable to be roused, check for breathing: look for a rise in the chest area; listen for the sound of air coming in and out; feel for air using the side of your face. If no signs of breathing are apparent, place two fingers under the chin and gently guide the face pointing upwards to open up their airways. If any debris such as vomit can be seen, it is appropriate to move them onto their side to allow it to get out, which is achieved with the recovery position. Check for a pulse." />
+
+        <TextView
+            android:id="@+id/Step3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="3. If the person remains unresponsive, prep for CPR.  "
+            android:textAlignment="viewStart"
+            android:textSize="14dp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/Image3"
+            android:layout_width="match_parent"
+            android:layout_height="310dp"
+            app:srcCompat="@drawable/heart3" />
+
+        <TextView
+            android:id="@+id/Instruction3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="Unless you suspect a spinal injury, carefully roll them onto their back and open their airway. If you suspect a spinal injury, leave the person where they are, provided they are breathing.
+Keep the head and neck aligned.
+Carefully roll them onto their back while holding their head.
+Open the airway by lifting the chin." />
+
+        <TextView
+            android:id="@+id/Step4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="4. Perform 30 chest compressions and two rescue breaths as part of CPR.  "
+            android:textAlignment="viewStart"
+            android:textSize="14dp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/Image4"
+            android:layout_width="match_parent"
+            android:layout_height="310dp"
+            app:srcCompat="@drawable/heart4" />
+
+        <TextView
+            android:id="@+id/Instruction4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="In the center of the chest, just below an imaginary line running between the nipples, put your two hands together and compress the chest down approximately 2 inches (5.1 cm) at a rate of 100 compressions per minute. After 30 compressions, give two rescue breaths, done by opening the airways, closing the nose and fully covering the mouth hole. Then check vitals. If the breaths are blocked, reposition the airway. Make sure the head is tilted slightly back and the tongue is not obstructing it. Continue this cycle of 30 chest compressions and two rescue breaths until someone else relieves you." />
+
+        <TextView
+            android:id="@+id/Step5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="5. Remember your ABCs of CPR."
+            android:textAlignment="viewStart"
+            android:textSize="14dp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/Image5"
+            android:layout_width="match_parent"
+            android:layout_height="310dp"
+            app:srcCompat="@drawable/heart5" />
+
+        <TextView
+            android:id="@+id/Instruction5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="The ABCs of CPR refer to the three critical things you need to look for.Check these three things frequently as you give the person first aid CPR.
+Airway. Does the person have an unobstructed airway?
+Breathing. Is the person breathing?
+Circulation. Does the person show a pulse at major pulse points (wrist, carotid artery, groin)?" />
+
+        <TextView
+            android:id="@+id/Step6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="6. Make sure the person is warm as you wait for medical help.  "
+            android:textAlignment="viewStart"
+            android:textSize="14dp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/Image6"
+            android:layout_width="match_parent"
+            android:layout_height="310dp"
+            app:srcCompat="@drawable/heart6" />
+
+        <TextView
+            android:id="@+id/Instruction6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="Drape a towel or a blanket over the person if you have one; if you don't, remove some of your own clothing (such as your coat or jacket) and use it as a cover until medical help arrives. However, if the person has a heatstroke, do not cover him or keep him warm. Instead try to cool him by fanning him and damping him." />
+
+        <TextView
+            android:id="@+id/Step7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="7. If the person regains consciousness. "
+            android:textAlignment="viewStart"
+            android:textSize="14dp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/Image7"
+            android:layout_width="match_parent"
+            android:layout_height="310dp"
+            app:srcCompat="@drawable/heart7" />
+
+        <TextView
+            android:id="@+id/Instruction7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="It helps to know the symptoms of heart attack, which can include rapid heartbeat, pressure or pain in the chest, throat or even pain in the armpit, and general unease, sweating or nausea. Rush the person to the hospital immediately while giving them an aspirin or a nitroglycerin, which the person should chew." />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/nav_profile"
+            android:title="@string/nav_profile" />
+        <item
+            android:id="@+id/nav_training"
+            android:icon="@drawable/nav_training"
+            android:title="@string/nav_training" />
+        <item
+            android:id="@+id/nav_requests"
+            android:icon="@drawable/nav_requests"
+            android:title="@string/nav_requests" />
+        <item
+            android:id="@+id/nav_responses"
+            android:icon="@drawable/nav_responses"
+            android:title="@string/nav_responses" />
+        <item
+            android:id="@+id/nav_donate"
+            android:icon="@drawable/nav_donate"
+            android:title="@string/nav_donate" />
+    </group>
+
+</menu>

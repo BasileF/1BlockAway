@@ -1,0 +1,16 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:startColor="@color/primaryLightColor"
+                android:centerColor="@color/primaryColor"
+                android:endColor="@color/primaryDarkColor"
+                android:angle="90" />
+        </shape>
+    </item>
+    <item>
+        <bitmap
+            android:src="@drawable/pattern"
+            android:tileMode="repeat" />
+    </item>
+</layer-list>

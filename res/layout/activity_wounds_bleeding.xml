@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primaryColor"
+    tools:context=".WoundsBleeding">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/Title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="20dp"
+            android:text="WOUNDS, BLEEDING"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/Step1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="1. Elevate a wounded limb. "
+            android:textAlignment="viewStart"
+            android:textSize="14dp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/Image1"
+            android:layout_width="match_parent"
+            android:layout_height="310dp"
+            app:srcCompat="@drawable/bleeding1" />
+
+        <TextView
+            android:id="@+id/Instruction1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="Raising the wounded limb (assuming it is an extremity that is injured) above the heart will help to reduce severe bleeding. If you suspect a broken bone, do not attempt to move the limb." />
+
+        <TextView
+            android:id="@+id/Step2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="2. Remove any debris from the wound. "
+            android:textAlignment="viewStart"
+            android:textSize="14dp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/Image2"
+            android:layout_width="match_parent"
+            android:layout_height="310dp"
+            app:srcCompat="@drawable/bleeding2" />
+
+        <TextView
+            android:id="@+id/Instruction2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="Clean up any visible foreign body and dirt, but do not clean the wound thoroughly as this can aggravate the wound. Your immediate priority is to stop severe bleeding. Cleaning the wound can wait.
+If the foreign object is large, however, do not remove it. It is most likely stopping a lot of the bleeding itself. Just put pressure on the area around the object, taking care not to push it in further." />
+
+        <TextView
+            android:id="@+id/Step3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="3. Apply firm pressure directly to the wound until the bleeding stops. "
+            android:textAlignment="viewStart"
+            android:textSize="14dp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/Image3"
+            android:layout_width="match_parent"
+            android:layout_height="310dp"
+            app:srcCompat="@drawable/bleeding3" />
+
+        <TextView
+            android:id="@+id/Instruction3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="Use a pad of clean gauze, dressing, or clothing. Even your hand can work if nothing else is available. Place your hand over the pad and apply firm pressure to the wound with your fingers or a hand." />
+
+        <TextView
+            android:id="@+id/Step4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="4. Apply pressure steadily. "
+            android:textAlignment="viewStart"
+            android:textSize="14dp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/Image4"
+            android:layout_width="match_parent"
+            android:layout_height="310dp"
+            app:srcCompat="@drawable/bleeding4" />
+
+        <TextView
+            android:id="@+id/Instruction4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="If the injury is on a limb, you can use tape or a cloth wrapped around the wound to maintain pressure (a folded triangular bandage placed over the wound and tied is ideal). For injuries to the groin or other parts of the body where you cannot wrap the wound, use a heavy pad and keep using your hands to press on the wound." />
+
+        <TextView
+            android:id="@+id/Step5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="5. Look for seepage from the wound."
+            android:textAlignment="viewStart"
+            android:textSize="14dp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/Image5"
+            android:layout_width="match_parent"
+            android:layout_height="310dp"
+            app:srcCompat="@drawable/bleeding5" />
+
+        <TextView
+            android:id="@+id/Instruction5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="Add more gauze or additional bandages if the original soaks through. Do not over-wrap it, however, as increased bulk risks reducing pressure on the wound. If you suspect the bandage is not working, remove the bandage and pad and reassess the application. If the bleeding appears controlled, maintain pressure until you are sure the bleeding has stopped or medical help has arrived." />
+
+        <TextView
+            android:id="@+id/Step6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="6. Continue applying pressure until the bleeding stops or help arrives. "
+            android:textAlignment="viewStart"
+            android:textSize="14dp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/Image6"
+            android:layout_width="match_parent"
+            android:layout_height="310dp"
+            app:srcCompat="@drawable/bleeding6" />
+
+        <TextView
+            android:id="@+id/Instruction6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="Do not stop applying pressure unless you are certain the bleeding has stopped. If blood is not obviously soaking through the dressing, check the wound occasionally to see if it is still bleeding.
+Do not apply pressure to an artery for longer than 5 minutes after the bleeding has stopped.
+Use a tourniquet if the bleeding is life-threatening. Tourniquets usually stop bleeding instantly if applied correctly, but incorrect tourniquet use can harm the patient." />
+
+        <TextView
+            android:id="@+id/Step7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="7. Monitor the victim’s breathing. "
+            android:textAlignment="viewStart"
+            android:textSize="14dp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/Image7"
+            android:layout_width="match_parent"
+            android:layout_height="310dp"
+            app:srcCompat="@drawable/bleeding7" />
+
+        <TextView
+            android:id="@+id/Instruction7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="Check that the bandages are not too tight. If the victim has cold, pale skin, toes or fingers that do not restore to normal color after compression, or the victim complains of numbness or tingling, it is probable that the bandaging is too tight." />
+
+        <TextView
+            android:id="@+id/Step8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="8. Maintain normal body temperature. "
+            android:textAlignment="viewStart"
+            android:textSize="14dp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/Image8"
+            android:layout_width="match_parent"
+            android:layout_height="310dp"
+            app:srcCompat="@drawable/bleeding8" />
+
+        <TextView
+            android:id="@+id/Instruction8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="Especially in the case of Internal Bleeding, keep the victim from getting too hot or too cold by applying rags dipped in water to the forehead." />
+
+    </LinearLayout>
+
+</ScrollView>

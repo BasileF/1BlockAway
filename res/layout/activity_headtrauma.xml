@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Headtrauma">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/Title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="20dp"
+            android:text="HEAD TRAUMA"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/Step1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="1. Have the person sit down. "
+            android:textAlignment="viewStart"
+            android:textSize="14dp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/Image1"
+            android:layout_width="match_parent"
+            android:layout_height="310dp"
+            app:srcCompat="@drawable/head1" />
+
+        <TextView
+            android:id="@+id/Instruction1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="If someone has a head injury, the first thing he should do is sit quietly and place something cold against the injury. A cold compress or bag of ice is good, though if you are inside, a bag of frozen vegetables can do the trick.
+It is best if the person avoids moving unless you need to get somewhere for better treatment. If it is a fallen child, do not pick him up unless absolutely necessary." />
+
+        <TextView
+            android:id="@+id/Step2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="2. Be prepared to start CPR. "
+            android:textAlignment="viewStart"
+            android:textSize="14dp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/Image2"
+            android:layout_width="match_parent"
+            android:layout_height="310dp"
+            app:srcCompat="@drawable/head2" />
+
+        <TextView
+            android:id="@+id/Instruction2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="If the person should suddenly lose consciousness, or stop breathing, you will need to start giving CPR right away. Keep the person on their back, and push down on the chest. If you are trained and comfortable performing CPR, open the airways and give rescue breaths. Repeat as necessary.
+While you want for the ambulance to arrive, make sure to keep checking breathing, pulse, or anything else that indicates consciousness and ability to respond." />
+
+        <TextView
+            android:id="@+id/Step3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="3. Treat any spinal injuries. "
+            android:textAlignment="viewStart"
+            android:textSize="14dp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/Image3"
+            android:layout_width="match_parent"
+            android:layout_height="310dp"
+            app:srcCompat="@drawable/head3" />
+
+        <TextView
+            android:id="@+id/Instruction3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="Spinal injuries can cause paralysis or other serious problems. Most treatment will come from medical professionals. There are a few steps you can take to help keep the situation from getting worse until they arrive.
+Keep the person still. If necessary, hold his head or neck in place, or place heavy towels on both sides of the neck for stability.
+Perform modified CPR if the person shows no sign of breathing, known as the jaw-thrust. Do not tilt the head back to open the airway. Instead, kneel behind the person's head and place a hand on either side of his jaw. Holding the head steady, push the mandible up — it should look as if the person has an extreme underbite. Do not do any rescue breathing, just chest compressions.
+If the person starts vomiting, and you do need to roll him over to prevent choking, get a second person to help keep the head, neck, and back aligned. Make sure one of you is at the person’s head, while the other should be at their side." />
+
+    </LinearLayout>
+
+</ScrollView>

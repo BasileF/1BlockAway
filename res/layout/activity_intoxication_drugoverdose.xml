@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".IntoxicationDrugoverdose">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/Title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="20dp"
+            android:text="INTOXICATION, DRUG OVERDOSE"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/Step1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="1. Stay calm. "
+            android:textAlignment="viewStart"
+            android:textSize="14dp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/Image1"
+            android:layout_width="match_parent"
+            android:layout_height="310dp"
+            app:srcCompat="@drawable/intoxication1" />
+
+        <TextView
+            android:id="@+id/Instruction1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="If you know or suspect that you or someone else has been exposed to poison, you might feel scared or panicked. Remind yourself that the best thing you can do right now is call for help and let the medical professionals talk you through the situation.
+If you find yourself panicking, stop what you’re doing for a moment and take a few deep breaths if it is safe to do so." />
+
+        <TextView
+            android:id="@+id/Step2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="2. Read the instructions on the label if the poison is a household chemical. "
+            android:textAlignment="viewStart"
+            android:textSize="14dp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/Image2"
+            android:layout_width="match_parent"
+            android:layout_height="310dp"
+            app:srcCompat="@drawable/intoxication2" />
+
+        <TextView
+            android:id="@+id/Instruction2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="If you know or think that you or another person has been poisoned by a household chemical (e.g., a cleaning product or a pesticide), check the directions and warnings on the label. Most of these products are labeled with instructions in case of accidental poisoning.
+The instructions may differ depending on the type of exposure. For example, if the person swallowed the substance, they may need emergency medical care. If they spilled it on their hands, it may be enough to rinse their skin under cool water for several minutes." />
+
+        <TextView
+            android:id="@+id/Step3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="3. Ask the person to spit out any poison in their mouth. "
+            android:textAlignment="viewStart"
+            android:textSize="14dp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/Image3"
+            android:layout_width="match_parent"
+            android:layout_height="310dp"
+            app:srcCompat="@drawable/intoxication3" />
+
+        <TextView
+            android:id="@+id/Instruction3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="If you know or suspect that someone has swallowed poison or put it in their mouth, encourage them to spit out any remaining poison. If they are unconscious, try to wake them up and ask them to spit.
+If you swallowed the poison, spit out as much of it as you can.
+Do not put your hands in the person’s mouth.
+Never induce vomiting unless a doctor or poison control specialist tells you to. Forcing someone who has been poisoned to throw up may do more harm than good. This is why it is necessary for them (or you) to go to an emergency room." />
+
+        <TextView
+            android:id="@+id/Step4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="4. Clear the person’s airway if they vomit. "
+            android:textAlignment="viewStart"
+            android:textSize="14dp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/Image4"
+            android:layout_width="match_parent"
+            android:layout_height="310dp"
+            app:srcCompat="@drawable/intoxication4" />
+
+        <TextView
+            android:id="@+id/Instruction4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="If the person vomits, wrap your hand in a clean cloth. Gently sweep your fingers sideways across the inside of their mouth to clear their airway.
+If the person vomits after eating a poisonous plant, save some of the vomit if you can. Medical personnel may be able to identify the plant by looking at fragments in the vomit.
+Keep the person on their side with their head turned to one side to prevent them from choking on vomit.
+If you’ve been poisoned and feel like you might vomit, lie down on your side so that you don’t choke on or inhale any of the vomit." />
+
+        <TextView
+            android:id="@+id/Step5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="5. Lie down in the recovery position if you’ve been poisoned and feel sick or faint."
+            android:textAlignment="viewStart"
+            android:textSize="14dp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/Image5"
+            android:layout_width="match_parent"
+            android:layout_height="310dp"
+            app:srcCompat="@drawable/intoxication5" />
+
+        <TextView
+            android:id="@+id/Instruction5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="Lie down on your left side with a cushion or other soft object behind your back. Pull your right leg up at the knee to prevent yourself from rolling forward or backward. Extend your left arm at a 90° angle relative to your body, and place your right arm across your chest with your right hand tucked under the side of your head.
+This position will help keep your airways open and clear in case you lose consciousness or vomit.
+Stay in this position until help arrives." />
+
+
+    </LinearLayout>
+
+</ScrollView>

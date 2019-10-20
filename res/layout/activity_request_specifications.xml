@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".RequestSpecifications"
+    tools:layout_editor_absoluteY="25dp">
+
+    <TextView
+        android:id="@+id/Instructions"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Select all categories that apply and press SEND. 911 and any available respondents will be notified."
+        android:textAlignment="center"
+        android:textColor="@color/secondaryTextColor"
+        app:layout_constraintEnd_toEndOf="@+id/Chestpain"
+        app:layout_constraintStart_toStartOf="@+id/WoundsBleeding"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Headtrauma"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/secondaryTextColor"
+
+        android:text="Head Trauma"
+        android:textColor="@android:color/black"
+        app:layout_constraintEnd_toEndOf="@+id/WoundsBleeding"
+        app:layout_constraintStart_toStartOf="@+id/WoundsBleeding"
+        app:layout_constraintTop_toBottomOf="@+id/WoundsBleeding" />
+
+    <Button
+        android:id="@+id/Breathingdifficulties"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/secondaryTextColor"
+        android:text="Breathing difficulties"
+        android:textColor="@android:color/black"
+        app:layout_constraintEnd_toEndOf="@+id/Headtrauma"
+        app:layout_constraintStart_toStartOf="@+id/Headtrauma"
+        app:layout_constraintTop_toBottomOf="@+id/Headtrauma" />
+
+    <Button
+        android:id="@+id/WoundsBleeding"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@color/secondaryTextColor"
+        android:text="Wounds,\nBleeding"
+        android:textColor="@android:color/black"
+        app:layout_constraintEnd_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toBottomOf="@+id/Instructions" />
+
+    <Button
+        android:id="@+id/IntoxicationDrugoverdose"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/secondaryTextColor"
+        android:text="Intoxication,\nDrug Overdose"
+        android:textColor="@android:color/black"
+        app:layout_constraintEnd_toEndOf="@+id/Chestpain"
+        app:layout_constraintStart_toStartOf="@+id/Chestpain"
+        app:layout_constraintTop_toBottomOf="@+id/Chestpain" />
+
+    <Button
+        android:id="@+id/Other"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/secondaryTextColor"
+        android:text="Other"
+        android:textColor="@android:color/black"
+        app:layout_constraintEnd_toEndOf="@+id/IntoxicationDrugoverdose"
+        app:layout_constraintStart_toStartOf="@+id/IntoxicationDrugoverdose"
+        app:layout_constraintTop_toBottomOf="@+id/IntoxicationDrugoverdose" />
+
+    <Button
+        android:id="@+id/Chestpain"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/secondaryTextColor"
+        android:text="Chest Pain"
+        android:textColor="@android:color/black"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toBottomOf="@+id/Instructions" />
+
+    <TextView
+        android:id="@+id/SomebodyElse"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="Are you requesting help for someone else?"
+        android:textColor="@color/secondaryTextColor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/Breathingdifficulties"
+        app:layout_constraintStart_toStartOf="@+id/Breathingdifficulties"
+        app:layout_constraintTop_toBottomOf="@+id/Breathingdifficulties"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/Send"
+        android:layout_width="117dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/secondaryLightColor"
+        android:text="Send"
+        android:textColor="@color/secondaryTextColor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/Other"
+        app:layout_constraintTop_toBottomOf="@+id/Other"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Switch
+        android:id="@+id/SendingForSomeoneElse"
+        android:layout_width="82dp"
+        android:layout_height="31dp"
+        android:textColor="@android:color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/Send"
+        app:layout_constraintEnd_toEndOf="@+id/SomebodyElse"
+        app:layout_constraintStart_toStartOf="@+id/SomebodyElse"
+        app:layout_constraintTop_toBottomOf="@+id/SomebodyElse" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
